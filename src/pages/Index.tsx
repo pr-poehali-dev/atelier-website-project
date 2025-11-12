@@ -70,7 +70,7 @@ export default function Index() {
     <div className="min-h-screen bg-background">
       <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b border-border z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <h1 className="text-2xl font-bold font-cormorant">Atelier</h1>
+          <h1 className="text-2xl font-bold font-cormorant">Модный сезон</h1>
           <div className="hidden md:flex gap-8">
             <a href="#services" className="text-foreground/80 hover:text-foreground transition-colors">Услуги</a>
             <a href="#testimonials" className="text-foreground/80 hover:text-foreground transition-colors">Отзывы</a>
@@ -78,7 +78,7 @@ export default function Index() {
           </div>
           <Button variant="outline" size="sm">
             <Icon name="Phone" size={16} className="mr-2" />
-            +7 (495) 123-45-67
+            +7 963 722 48 32
           </Button>
         </div>
       </nav>
@@ -100,7 +100,7 @@ export default function Index() {
             <div className="relative animate-scale-in">
               <img 
                 src="https://cdn.poehali.dev/projects/7cc7408f-13d4-4a5a-8ce9-32404b7d9f18/files/e491c058-bfd6-4ecd-8d7f-ed0a1582398b.jpg"
-                alt="Atelier interior"
+                alt="Модный сезон интерьер"
                 className="rounded-lg shadow-2xl w-full h-[600px] object-cover"
               />
             </div>
@@ -213,7 +213,7 @@ export default function Index() {
                 </div>
                 <div className="flex items-center gap-3">
                   <Icon name="Phone" size={20} className="text-secondary" />
-                  <span>+7 (495) 123-45-67</span>
+                  <span>+7 963 722 48 32</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Icon name="Clock" size={20} className="text-secondary" />
@@ -227,7 +227,7 @@ export default function Index() {
 
       <footer className="py-8 px-4 border-t border-border">
         <div className="container mx-auto text-center text-sm text-muted-foreground">
-          <p>© 2024 Atelier. Все права защищены.</p>
+          <p>© 2024 Модный сезон. Все права защищены.</p>
         </div>
       </footer>
     </div>
