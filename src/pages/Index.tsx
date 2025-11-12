@@ -93,14 +93,18 @@ export default function Index() {
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
                 Воплощаем ваши идеи в изысканную одежду с безупречным качеством и утонченным стилем
               </p>
-              <Button size="lg" className="text-lg px-8">
+              <Button 
+                size="lg" 
+                className="text-lg px-8"
+                onClick={() => window.open('https://wa.me/79637224832', '_blank')}
+              >
                 Записаться на консультацию
               </Button>
             </div>
             <div className="relative animate-scale-in">
               <img 
-                src="https://cdn.poehali.dev/projects/7cc7408f-13d4-4a5a-8ce9-32404b7d9f18/files/6f13a240-a76e-415a-b9d3-2b2cbe5ad22d.jpg"
-                alt="Ткани и нитки ателье"
+                src="https://cdn.poehali.dev/projects/7cc7408f-13d4-4a5a-8ce9-32404b7d9f18/files/a1adc18a-714e-4d16-a79a-39438ad1d978.jpg"
+                alt="Катушки ниток и иголки ателье"
                 className="rounded-lg shadow-2xl w-full h-[600px] object-cover"
               />
             </div>
