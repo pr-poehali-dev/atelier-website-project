@@ -17,7 +17,7 @@ export default function Index() {
       icon: 'Scissors', 
       title: 'Пошив на заказ', 
       description: 'Создание уникальной одежды по вашим меркам и эскизам',
-      price: 'от 8 000 ₽'
+      price: 'от 2 500 ₽'
     },
     { 
       icon: 'Shirt', 
@@ -35,7 +35,7 @@ export default function Index() {
       icon: 'Sparkles', 
       title: 'Реставрация', 
       description: 'Возвращаем вторую жизнь любимым вещам',
-      price: 'от 2 000 ₽'
+      price: 'от 500 ₽'
     }
   ];
 
@@ -99,8 +99,8 @@ export default function Index() {
             </div>
             <div className="relative animate-scale-in">
               <img 
-                src="https://cdn.poehali.dev/projects/7cc7408f-13d4-4a5a-8ce9-32404b7d9f18/files/e491c058-bfd6-4ecd-8d7f-ed0a1582398b.jpg"
-                alt="Модный сезон интерьер"
+                src="https://cdn.poehali.dev/projects/7cc7408f-13d4-4a5a-8ce9-32404b7d9f18/files/6f13a240-a76e-415a-b9d3-2b2cbe5ad22d.jpg"
+                alt="Ткани и нитки ателье"
                 className="rounded-lg shadow-2xl w-full h-[600px] object-cover"
               />
             </div>
