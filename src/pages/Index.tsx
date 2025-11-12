@@ -166,58 +166,32 @@ export default function Index() {
 
       <section id="contact" className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-2xl">
-          <h2 className="text-5xl font-cormorant font-bold text-center mb-4">Свяжитесь с нами</h2>
-          <p className="text-center text-muted-foreground mb-12 text-lg">Мы ответим на все ваши вопросы</p>
+          <h2 className="text-5xl font-cormorant font-bold text-center mb-12">Контакты</h2>
           
           <Card className="border-border/50">
             <CardContent className="p-8">
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div>
-                  <label className="block text-sm font-medium mb-2">Ваше имя</label>
-                  <Input 
-                    placeholder="Анна Иванова"
-                    value={formData.name}
-                    onChange={(e) => setFormData({...formData, name: e.target.value})}
-                    required
-                  />
+              <div className="space-y-6">
+                <div className="flex items-start gap-4">
+                  <Icon name="MapPin" size={24} className="text-secondary mt-1 flex-shrink-0" />
+                  <div>
+                    <h3 className="font-semibold mb-1">Адрес</h3>
+                    <p className="text-muted-foreground">Зеленоград, ул. Новокрюковская, к1824</p>
+                  </div>
                 </div>
-                <div>
-                  <label className="block text-sm font-medium mb-2">Телефон</label>
-                  <Input 
-                    type="tel"
-                    placeholder="+7 (___) ___-__-__"
-                    value={formData.phone}
-                    onChange={(e) => setFormData({...formData, phone: e.target.value})}
-                    required
-                  />
+                <div className="flex items-start gap-4">
+                  <Icon name="Phone" size={24} className="text-secondary mt-1 flex-shrink-0" />
+                  <div>
+                    <h3 className="font-semibold mb-1">Телефон</h3>
+                    <p className="text-muted-foreground">+7 963 722 48 32</p>
+                  </div>
                 </div>
-                <div>
-                  <label className="block text-sm font-medium mb-2">Сообщение</label>
-                  <Textarea 
-                    placeholder="Расскажите о вашем заказе..."
-                    rows={5}
-                    value={formData.message}
-                    onChange={(e) => setFormData({...formData, message: e.target.value})}
-                    required
-                  />
-                </div>
-                <Button type="submit" size="lg" className="w-full">
-                  Отправить заявку
-                </Button>
-              </form>
-
-              <div className="mt-8 pt-8 border-t border-border space-y-4">
-                <div className="flex items-center gap-3">
-                  <Icon name="MapPin" size={20} className="text-secondary" />
-                  <span>Москва, ул. Тверская, 12</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <Icon name="Phone" size={20} className="text-secondary" />
-                  <span>+7 963 722 48 32</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <Icon name="Clock" size={20} className="text-secondary" />
-                  <span>Пн-Сб: 10:00 - 20:00, Вс: выходной</span>
+                <div className="flex items-start gap-4">
+                  <Icon name="Clock" size={24} className="text-secondary mt-1 flex-shrink-0" />
+                  <div>
+                    <h3 className="font-semibold mb-1">Часы работы</h3>
+                    <p className="text-muted-foreground">Вт-Сб: 10:00-18:30</p>
+                    <p className="text-muted-foreground">Вс, Пн: выходной</p>
+                  </div>
                 </div>
               </div>
             </CardContent>
